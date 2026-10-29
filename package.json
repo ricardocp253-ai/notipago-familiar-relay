@@ -1,0 +1,13 @@
+{
+  "name": "notipago-relay-server",
+  "version": "1.0.0",
+  "description": "Zero-Knowledge E2EE Real-Time Relay Server for NotiPago Familiar",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-relay.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
